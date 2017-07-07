@@ -1,0 +1,63 @@
+
+.container-fluid {
+  background-color: yellow;
+  padding: 75px 30px;
+}
+.row-1 {
+  background-color: blue;
+  height: 100px;
+}
+
+.row-2 {
+  height: 50px;
+  background-color: green;
+}
+
+.row-3 {
+  height: 150px;
+  background-color: red;
+}
+
+.row-3-col {
+  background-color: #00ffff;
+  height: 150px;
+}
+
+.row-4 {
+  background-color: orange;
+  height: 130px;
+}
+
+.row-4-col {
+  height: 130px;
+  border: solid black;
+}
+
+.row-5 {
+  background-color: black;
+  height: 50px;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  height: 50px;
+}
+
+.red {
+  background-color: red;
+  height: 50px;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 768px) {
+  .red {
+    background-color: blue;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .row-2 {
+    background-color: pink;
+  }
+}

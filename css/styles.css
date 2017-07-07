@@ -50,8 +50,14 @@
 }
 
 /*MEDIA QUERIES*/
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 768px) {
   .red {
     background-color: blue;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .row-2 {
+    background-color: pink;
   }
 }
